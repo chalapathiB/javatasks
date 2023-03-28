@@ -1,0 +1,27 @@
+package com.javabrains;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+@Service
+public class TopicService 
+{
+	
+	private List<Topic> topics=new ArrayList(Arrays.asList(
+			new Topic(),
+			new Topic(1,"Java","Javadescription"),
+			new Topic(2,"Spring","SpringBootdescription"),
+			new Topic(3,"html","htmldescription"),
+			new Topic(4,"sql","sqldescription")
+			));
+	public List<Topic> getAllTopics() 
+	{
+		return topics;
+		
+		
+		
+	}
+
+}

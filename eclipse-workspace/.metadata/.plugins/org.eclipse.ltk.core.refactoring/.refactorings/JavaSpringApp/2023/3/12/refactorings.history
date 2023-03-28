@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.javabrains.sum&apos; to &apos;com.javabrains&apos;&#x0A;- Original project: &apos;JavaSpringApp&apos;&#x0A;- Original element: &apos;JavaSpringApp/src/main/java/com.javabrains.sum&apos;&#x0A;- Renamed element: &apos;JavaSpringApp/src/main/java/com.javabrains&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.javabrains.sum&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.javabrains.sum" name="com.javabrains" qualified="false" references="true" stamp="1679401628157" textual="false" version="1.0"/>
+</session>

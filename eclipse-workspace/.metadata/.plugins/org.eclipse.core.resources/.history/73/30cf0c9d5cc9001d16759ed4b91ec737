@@ -1,0 +1,19 @@
+package com.chalapathi;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicController 
+{
+	
+	
+	private TopicService topicservice;
+	
+	public List<Topic> getAllTopics()
+	{
+		return topicservice.getAllTopics();
+	}
+
+}

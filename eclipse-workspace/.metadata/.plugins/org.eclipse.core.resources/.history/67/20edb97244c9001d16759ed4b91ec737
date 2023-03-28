@@ -1,0 +1,15 @@
+package com.javabrains2;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class CourseApi{
+
+	public static void main(String[] args)
+	{
+		ApplicationContext context=new ClassPathResource("")
+		
+
+	}
+
+}

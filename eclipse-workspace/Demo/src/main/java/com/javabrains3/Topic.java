@@ -1,0 +1,43 @@
+package com.javabrains3;
+//dependent class
+public class Topic 
+{
+	
+	private int id;
+	private String name;
+	private String topicDescription;
+	
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getTopicDescription() {
+		return topicDescription;
+	}
+	public void setTopicDescription(String topicDescription) {
+		this.topicDescription = topicDescription;
+	}
+	public Topic(int id, String name, String topicDescription) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.topicDescription = topicDescription;
+	}
+	
+	public Topic()
+	{
+		System.out.println("This is default Constructor");
+	}
+
+}

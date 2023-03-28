@@ -1,0 +1,14 @@
+package com.chalapathi;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicController 
+{
+	
+	
+	private TopicService topicservice;
+	
+	
+
+}

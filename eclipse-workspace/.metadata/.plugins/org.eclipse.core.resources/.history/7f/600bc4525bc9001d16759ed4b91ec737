@@ -1,0 +1,18 @@
+package com.chalap;
+
+
+
+
+
+
+@SpringApplicaiton
+public class Courses
+{
+	public static void main(String[] args) 
+	{
+		SpringApplication.run("Courses.class",args);
+		
+	}
+	
+
+}
